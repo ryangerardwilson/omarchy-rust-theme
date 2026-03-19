@@ -2,12 +2,12 @@
   <title id="title">Rust Omarchy wallpaper</title>
   <desc id="desc">A centered warm rust ASCII wallpaper sourced from the local wallpaper.txt file.</desc>
 
-  <rect width="3840" height="2160" fill="#f5e9df" />
+  <rect width="3840" height="2160" fill="#faede8" />
 
   <text
     x="960"
     y="200"
-    fill="#2f1f17"
+    fill="#2c001e"
     font-family="JetBrainsMono Nerd Font Mono, JetBrainsMono Nerd Font, Liberation Mono, monospace"
     font-size="24"
     text-anchor="start"
