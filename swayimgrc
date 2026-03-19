@@ -1,0 +1,27 @@
+[general]
+mode = viewer
+decoration = no
+sigusr1 = reload
+
+[viewer]
+window = #f5e9dfff
+transparency = #f5e9dfff
+scale = optimal
+position = center
+
+[slideshow]
+window = #f5e9dfff
+transparency = #f5e9dfff
+scale = fit
+position = center
+
+[gallery]
+select = #8f4a2bff
+background = #ead7c8ff
+border_color = #2f1f17ff
+window = #f5e9dfff
+
+[font]
+color = #2f1f17ff
+shadow = #2f1f1700
+background = #d9b39dd8
