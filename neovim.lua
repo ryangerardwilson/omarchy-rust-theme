@@ -16,29 +16,29 @@ return {
       },
       colors = {
         base00 = "#faede8",
-        base01 = "#f3d6c8",
-        base02 = "#e95420",
-        base03 = "#b24c24",
-        base04 = "#b24c24",
-        base05 = "#2c001e",
-        base06 = "#2c001e",
-        base07 = "#2c001e",
-        base08 = "#2c001e",
-        base09 = "#e95420",
-        base0A = "#ff7b54",
-        base0B = "#2c001e",
-        base0C = "#b24c24",
-        base0D = "#2c001e",
-        base0E = "#ff7b54",
-        base0F = "#b24c24",
+        base01 = "#f3d1cb",
+        base02 = "#c73a2a",
+        base03 = "#9f3a32",
+        base04 = "#9f3a32",
+        base05 = "#3a0f12",
+        base06 = "#3a0f12",
+        base07 = "#3a0f12",
+        base08 = "#3a0f12",
+        base09 = "#c73a2a",
+        base0A = "#e3695b",
+        base0B = "#3a0f12",
+        base0C = "#9f3a32",
+        base0D = "#3a0f12",
+        base0E = "#e3695b",
+        base0F = "#9f3a32",
       },
       on_highlights = function(hl)
-        local white = "#2c001e"
+        local white = "#3a0f12"
         local blue = "#faede8"
-        local dark = "#f3d6c8"
-        local deep = "#e95420"
-        local light = "#b24c24"
-        local mid = "#ff7b54"
+        local dark = "#f3d1cb"
+        local deep = "#c73a2a"
+        local light = "#9f3a32"
+        local mid = "#e3695b"
 
         hl.Normal = { fg = white, bg = blue }
         hl.NormalNC = { fg = white, bg = blue }
@@ -153,12 +153,12 @@ return {
     },
     config = function(_, opts)
       local function apply_bsod_plugin_highlights()
-        local white = "#2c001e"
+        local white = "#3a0f12"
         local blue = "#faede8"
-        local dark = "#f3d6c8"
-        local deep = "#e95420"
-        local light = "#b24c24"
-        local mid = "#ff7b54"
+        local dark = "#f3d1cb"
+        local deep = "#c73a2a"
+        local light = "#9f3a32"
+        local mid = "#e3695b"
         local groups = {
           MiniIconsAzure = { fg = light, bg = blue },
           MiniIconsBlue = { fg = white, bg = blue },

@@ -16,12 +16,12 @@ scale = fit
 position = center
 
 [gallery]
-select = #e95420ff
-background = #f3d6c8ff
-border_color = #2c001eff
+select = #c73a2aff
+background = #f3d1cbff
+border_color = #3a0f12ff
 window = #faede8ff
 
 [font]
-color = #2c001eff
-shadow = #2c001e00
-background = #e6b29bd8
+color = #3a0f12ff
+shadow = #3a0f1200
+background = #e3a19ad8
